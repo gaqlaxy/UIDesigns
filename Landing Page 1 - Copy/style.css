@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.navbar{
+    /* height: 100px; */
+    width: 100%;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px 60px;
+    
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav1 h3{
+font-size: 24px;
+font-weight: 600;
+}
+.nav1 h2{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.nav2 h4{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.maincontent{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+
+.maincontent h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.maincontent h1{
+    margin-top: 40px;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 120px;
+    letter-spacing: -3px;
+}
+.casestudies{
+    padding: 40px 60px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.casestudies h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.casestudies h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    gap: 50px;
+}
+.elements{
+    width: 50%;
+}
+.images{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(131, 143, 144, 0.641);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(image1.png);
+}
+#img2{
+    background-image: url(image2.jpg);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 15px 30px;
+    border: 2px solid;
+    border-radius: 75px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.bottom i:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
